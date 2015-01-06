@@ -12,9 +12,12 @@
     return [NSURL class];
 }
 
-- (NSData *)transformedValue:(NSString *)string
+- (NSData *)transformedValue:(id)value
 {
-    if (![string isKindOfClass:[NSString class]]) {
+    NSString *string = nil;
+    if ([value isKindOfClass:[NSURL class]]) {
+        string = [value absoluteString];
+    } else if (![value isKindOfClass:[NSString class]]) {
         return nil;
     }
 

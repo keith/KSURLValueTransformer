@@ -1,5 +1,5 @@
 #ifdef __OBJC__
+    @import CoreData;
     @import Foundation;
     @import UIKit;
-    @import CoreData;
 #endif

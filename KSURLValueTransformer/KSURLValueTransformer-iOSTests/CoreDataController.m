@@ -44,7 +44,8 @@
 - (NSManagedObjectModel *)model
 {
     if (!_model) {
-        _model = [NSManagedObjectModel mergedModelFromBundles:nil];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        _model = [NSManagedObjectModel mergedModelFromBundles:@[bundle]];
     }
 
     return _model;

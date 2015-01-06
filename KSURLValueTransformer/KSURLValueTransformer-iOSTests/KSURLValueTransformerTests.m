@@ -1,3 +1,4 @@
+#import <XCTest/XCTest.h>
 #import "KSURLValueTransformer.h"
 #import "CoreDataController.h"
 #import "Thing.h"

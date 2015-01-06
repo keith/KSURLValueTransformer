@@ -6,4 +6,4 @@ branches:
 
 env: export LANG=en_US.UTF-8
 
-script: Example/bin/test
+script: KSURLValueTransformer/bin/test
