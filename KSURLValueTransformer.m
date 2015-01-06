@@ -17,7 +17,9 @@
     NSString *string = nil;
     if ([value isKindOfClass:[NSURL class]]) {
         string = [value absoluteString];
-    } else if (![value isKindOfClass:[NSString class]]) {
+    } else if ([value isKindOfClass:[NSString class]]) {
+        string = value;
+    } else {
         return nil;
     }
 
