@@ -9,7 +9,7 @@
 
 + (Class)transformedValueClass
 {
-    return [NSURL class];
+    return [NSData class];
 }
 
 - (NSData *)transformedValue:(id)value
