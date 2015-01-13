@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = "KSURLValueTransformer"
-  s.version            = "1.0.1"
+  s.version            = "1.0.2"
   s.summary            = "A NSValueTransformer subclass for storing NSURLs in Core Data"
   s.homepage           = "https://github.com/Keithbsmiley/KSURLValueTransformer"
   s.license            = "MIT"
