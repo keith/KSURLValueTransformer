@@ -1,6 +1,6 @@
 # KSURLValueTransformer
 
-[![Build Status](https://travis-ci.org/Keithbsmiley/KSURLValueTransformer.svg?branch=master)](https://travis-ci.org/Keithbsmiley/KSURLValueTransformer)
+[![Build Status](https://travis-ci.org/keith/KSURLValueTransformer.svg)](https://travis-ci.org/keith/KSURLValueTransformer)
 
 A `NSValueTransformer` subclass for storing `NSURL`s in Core Data.
 
